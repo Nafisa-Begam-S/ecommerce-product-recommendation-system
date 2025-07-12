@@ -1,65 +1,66 @@
 #  E-Commerce Product Recommendation System
 
-**Project by: Nafisa Begam**
+A collaborative filtering product recommendation system built using **Machine Learning** and deployed with **Streamlit Cloud**.  
+This simple app recommends similar products based on the selected product name using **Cosine Similarity**.
 
 ---
 
 ##  Project Overview
 
-This is a product recommendation system I built using an e-commerce transaction dataset. It uses item-based collaborative filtering and cosine similarity to recommend similar products based on users’ past purchase behavior.  
+ **Domain**: Machine Learning | Recommendation Systems  
+ **Tech Stack**: Python, Pandas, Scikit-learn, Streamlit  
+ **Algorithm Used**: Cosine Similarity  
 
-The idea behind this project was to gain hands-on experience with real-world e-commerce data and develop a practical recommendation engine.
-
----
-
-##  Features
-
-- Cleaned and processed raw e-commerce transaction data
-- Created a user-item interaction matrix from historical transaction events
-- Calculated item-item similarity using cosine similarity
-- Developed a simple yet effective item-based recommendation system
-- Built an interactive Streamlit web app to deliver live product recommendations
-- Compiled a complete project report documenting the workflow and results
+This project helps users get product recommendations by comparing product names and suggesting similar ones. The dataset was sourced from **Kaggle**.
 
 ---
 
 ##  Project Structure
-ECommerce_Recommendation_Nafisa
-┣  ecommerce_recommendation_system.ipynb
-┣  app.py
-┣  Project_Report_Nafisa.pdf
-┣  requiremnets.txt
 
-
-Note:  
-The dataset files (`events.csv`, `item_properties_part1.csv`, `category_tree.csv`) were too large to upload directly to GitHub via browser. They are available on request or can be accessed directly from [Kaggle](https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset).
-
----
-
-##  How to Run
-
-1️ Install the required libraries:
-
-2️ Run the Streamlit application:
+ ECommerce_Recommendation_Nafisa
+┣  app.py # Streamlit app code (web app)
+┣  ecommerce_recommendation_system.ipynb # Model building notebook
+┣  requirements.txt # List of Python dependencies
+┣  README.md # Project description (this file)
+┣  Project_Report_Nafisa.pdf # My project report (optional)
+┣  category_tree.csv # Sample dataset (if under 25MB)
 
 
 ---
 
-## 📊 Sample Recommendation Output:
+##  Dataset Information
 
-The app allows you to select a product (item ID) and recommends the top similar products based on past transaction patterns.
+**Note:**  
+ Full dataset files like `events.csv`, `item_properties_part1.csv`, `category_tree.csv` were too large for GitHub upload.  
+ You can download them directly from [Kaggle Ecommerce Dataset](https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset).
 
 ---
 
-##  About Me  
+##  Live App Deployment  
 
-Hi, I'm **Nafisa Begam** — an aspiring Data Scientist passionate about AI, Machine Learning, and building useful real-world applications.  
+ **Try the live deployed Streamlit app here**:  
+ [Click to Open App](https://ecommerce-appuct-recommendation-system-4pjev9dnodcktu2p36zvzb.streamlit.app)
 
-This is one of the projects I developed to learn and showcase practical data science workflows.  
-Feel free to check out my other work too!
+---
 
- **Connect with me:**  
-[LinkedIn](http://linkedin.com/in/nafisabegam) | [GitHub](https://github.com/Nafisa-Begam-S)
+##  How to Run Locally  
+
+Follow these steps to run the project on your local machine:
+
+1️. Clone the Repository
+
+git clone:  https://github.com/Nafisa-Begam-S/ecommerce-product-recommendation-system.git
+
+2️. Install Required Dependencies
+
+3️. Run the App
+
+## About Me  
+
+**Nafisa Begam** — Beginner in AI & ML Projects, passionate about AI for good.  
+
+ Let’s connect on [LinkedIn](https://www.linkedin.com)
+
 
 
 
